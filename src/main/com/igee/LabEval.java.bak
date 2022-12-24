@@ -8,7 +8,7 @@ public class LabEval {
 		int result = a;
 		// TODO Write your code inside
 		// -------------------------------------------
-		result = -a;
+
 		// -------------------------------------------
 		return result;	
 	}
