@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: test.com.igee.LabEvalTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.054 s <<< FAILURE! - in test.com.igee.LabEvalTest
+shouldReturnNegativeNumber  Time elapsed: 0.038 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <10> but was: <-10>
+	at test.com.igee.LabEvalTest$CheckingReversedSign.shouldReturnNegativeNumber(LabEvalTest.java:55)
+
+shouldReturnPositiveNumber  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-10> but was: <10>
+	at test.com.igee.LabEvalTest$CheckingReversedSign.shouldReturnPositiveNumber(LabEvalTest.java:65)
+
